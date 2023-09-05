@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    font-family: 'Indie Flower', cursive;
+}
+#navbar2 {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: fill;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    background-color: #de369d;
+    padding: 5px;
+    height: 15px;
+    
+}
+#navbar2 i {
+  
+  transition: transform 0.3s ease-in-out;}
+
+/* #navbar2:hover{
+  animation: heartBeat 0.6s infinite;
+} */
+.fa-instagram:hover{
+  animation: heartBeat 0.6s infinite;
+}
+.fa-facebook:hover{
+  animation: heartBeat 0.6s infinite;
+}
+.fa-linkedin:hover{
+  animation: heartBeat 0.6s infinite;
+}
+.fa-twitter:hover{
+  animation: heartBeat 0.6s infinite;
+}
+@keyframes heartBeat {
+  0% {
+      transform: scale(1);
+  }
+
+  20% {
+      transform: scale(1.2);
+  }
+
+  40% {
+      transform: scale(1);
+  }
+
+  60% {
+      transform: scale(1.2);
+  }
+
+  80% {
+      transform: scale(1);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
+#navbar {
+    display: flex;
+    position: fixed;
+    
+    right: 0;
+    left: 0;
+    top: 0;
+    width: fill;
+    border: 2px solid black;
+    justify-content:space-evenly;
+    background-color: #4c934c;
+    padding: 5px;
+    height: 25px;
+    
+}
+#home{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 10px;
+  font-size: 25px;
+  
+}
+#bouq{
+  position: absolute;
+  right: 250px;
+  font-size: 25px;
+}
+#plants{
+  position: absolute;
+  right: 100px;
+  padding-right: 5px;
+  font-size: 25px;
+}
+#contact{
+  position: absolute;
+  right: 400px;
+  font-size: 25px;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: #c6c6c6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }  
+h1{
+    color: #4c934c;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+  text-align: center;
+  color: #4c934c;
+}
+h6{
+    color: #de369d;
+    text-align: center;
+}
+p{
+  text-align: center;
+  color: #de369d;
+  font-size: 20px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 625px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    /* width: 50%;
+    transition: width 3s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease; */
+    /* z-index: -1; */
+
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  object-fit: cover;
+  max-width: 100%;
+
+   
+  }
