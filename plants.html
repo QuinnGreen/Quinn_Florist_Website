@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/4f077fa759.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="topnav" id="myTopnav">
+  <!-- <div class="topnav" id="myTopnav">
     <a href="index.html" class="active">Super Queer Flowers</a>
     <a href="bouquets.html">Bouquets</a>
     <a href="plants.html">Plants</a>
@@ -26,7 +26,38 @@
         x.className = "topnav";
       }
     }
-    </script>
+    </script> -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <a href="index.html"><li>Super Queer Flowers</li></a>
+          <a href="bouquets.html"><li>Bouquets</li></a>
+          <a href="plants.html"><li>Plants</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+          <!-- <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a> -->
+        </ul>
+      </div>
+    </nav>
     <h1>Plants</h1>
 
     <!-- <h2>Welcome to Super Queer Flowers!</h2> -->

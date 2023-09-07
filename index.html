@@ -9,25 +9,60 @@
     <script src="https://kit.fontawesome.com/4f077fa759.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active">Super Queer Flowers</a>
-        <a href="bouquets.html">Bouquets</a>
-        <a href="plants.html">Plants</a>
-        <a href="contact.html">Contact</a>
+    <!-- <div class="topnav" id="myTopnav">
+        <a id="home" href="index.html" class="active">Super Queer Flowers</a>
+        <a id="bouq" href="bouquets.html">Bouquets</a>
+        <a id="plants" href="plants.html">Plants</a>
+        <a id="contact" href="contact.html">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
+          <i class="fa fa-bars"></i> -->
         </a>
       </div>
       <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
+        // function myFunction() {
+        //   var x = document.getElementById("myTopnav");
+        //   if (x.className === "topnav") {
+        //     x.className += " responsive";
+        //   } else {
+        //     x.className = "topnav";
+        //   }
+        // }
+        // </script>
+
+<nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      
+      <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="menu">
+        <a href="index.html"><li>Super Queer Flowers</li></a>
+        <a href="bouquets.html"><li>Bouquets</li></a>
+        <a href="plants.html"><li>Plants</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+        <!-- <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a> -->
+      </ul>
+    </div>
+  </nav>
+        
+        
+        
     <h1>Super Queer Flowers</h1>
     <h6>A subsidiary of the Monsanto Corporation</h6>
     
@@ -66,10 +101,10 @@
         </head>
         <body>
         
-     
-        
-        
-        
+     <!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+
         
 
 </body>
