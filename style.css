@@ -136,7 +136,7 @@ h6{
 }
 p{
   text-align: center;
-  color: #de369d;
+  color: black;
   font-size: 20px;
 }
 div.gallery {
@@ -146,6 +146,7 @@ div.gallery {
     width: 625px;
     margin: 0 auto;
     text-align: center;
+    max-width: 100%;
   }
   
   div.gallery:hover {
@@ -157,6 +158,7 @@ div.gallery {
   div.gallery img {
     width: 100%;
     height: auto;
+    max-width: 100%;
   }
   
   div.desc {
