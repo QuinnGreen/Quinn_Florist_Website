@@ -9,6 +9,25 @@
     <script src="https://kit.fontawesome.com/4f077fa759.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Super Queer Flowers</a>
+        <a href="bouquets.html">Bouquets</a>
+        <a href="plants.html">Plants</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
     <h1>Super Queer Flowers</h1>
     <h6>A subsidiary of the Monsanto Corporation</h6>
     
@@ -27,13 +46,13 @@
       
      
       </div>
-    <div id="navbar">
+    <!-- <div id="navbar">
         <a id="home" href="index.html">Super Queer Flowers</a>
         <a id="bouq" href="bouquets.html">Bouquets</a>
         <a id="plants" href="plants.html">Plants</a>
-        <!-- <a id="about" href="about.html">About</a> -->
-        <a id="contact" href="contact.html">Contact</a>
-        
+       
+         <a id="contact" href="contact.html">Contact</a>
+         --> 
     </div>
     <div id="navbar2">
         <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
@@ -43,5 +62,15 @@
         
     </div>
    
+
+        </head>
+        <body>
+        
+     
+        
+        
+        
+        
+
 </body>
 </html>
